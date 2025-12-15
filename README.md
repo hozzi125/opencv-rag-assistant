@@ -53,7 +53,7 @@ rag_pipeline.py(retrieval + LLM)
 # Вимоги
 
 1. Python 3.10+
-2. Бібліотеки (встановлюються через `pip install -r requirements.txt)
+2. Бібліотеки (встановлюються через ```pip install -r requirements.txt```)
 3. Ollama:
       - не є вбудованим пакетом Python, встановлюються окремо через "https://ollama.com";
       - після встановлення необхідно 1 раз завантажити модель: ```ollama pull llama3.1.8b```;
