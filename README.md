@@ -56,20 +56,20 @@ rag_pipeline.py(retrieval + LLM)
 2. Бібліотеки (встановлюються через `pip install -r requirements.txt)
 3. Ollama:
       - не є вбудованим пакетом Python, встановлюються окремо через "https://ollama.com";
-      - після встановлення необхідно 1 раз завантажити модель: ollama pull llama3.1.8b;
-      - перевірка: ollama list.
+      - після встановлення необхідно 1 раз завантажити модель: ```ollama pull llama3.1.8b```;
+      - перевірка: ```ollama list```.
 
 ----------------------------------------------------------------------------------------
 
 # Запуск проєкту
 1. Активувати віртуальне середовище:
-  source .venv/Scripts/activate
+  ```source .venv/Scripts/activate```
 2. Побудова корпусу:
-  python main.py build-docs
+  ```python main.py build-docs```
 3. Побудова векторного індексу:
-  python main.py build-index
+  ```python main.py build-index```
 4. Демонстрація RAG:
-  python main.py demo
+  ```python main.py demo```
 
 ----------------------------------------------------------------------------------------
 
