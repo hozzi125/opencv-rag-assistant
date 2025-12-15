@@ -33,21 +33,6 @@ rag_opencv/
 
 ----------------------------------------------------------------------------------------
 
-# Архітектура
-OpenCV Documentation (HTML)
-        |
-build_docs.py
-        |
-chunks.jsonl
-        |
-index_chroma.py(embeddings + Chroma)
-        |
-Vector Store
-        |
-rag_pipeline.py(retrieval + LLM)
-
------------------------------------------------------------------------------------------
-
 Для генераціЇ відповідей використовується локальна LLM через Ollama (LLaMa 3.1).
 
 # Вимоги
