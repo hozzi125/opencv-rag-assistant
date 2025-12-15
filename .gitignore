@@ -1,0 +1,31 @@
+#Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+#Virtual Enviroment
+.venv/
+venv/
+env/
+.env
+.env.*
+
+#IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+#Data & artifacts
+data/raw/*
+data/chroma/*
+
+#Processed data
+data/processed/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/chroma/.gitkeep
